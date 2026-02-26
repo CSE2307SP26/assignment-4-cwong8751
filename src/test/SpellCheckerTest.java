@@ -123,5 +123,7 @@ class SpellCheckerTest {
 		String result = sc.getReplacement("there are 3 green apple on the table");
 		String expected = "there are 3 green opple on the table";
 		assertEquals(expected, result);
+
+		sc.clearReplacements();
 	}
 }
